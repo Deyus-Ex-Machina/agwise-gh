@@ -1,0 +1,2617 @@
+[
+  {
+    "name": "Zip",
+    "dtype": "object",
+    "non_null": 14857,
+    "null_pct": 60.18,
+    "unique": 781,
+    "sample_values": [
+      "57234",
+      "76571",
+      "62471",
+      "68848",
+      "85040"
+    ]
+  },
+  {
+    "name": "Date Recd",
+    "dtype": "object",
+    "non_null": 19435,
+    "null_pct": 47.91,
+    "unique": 634,
+    "sample_values": [
+      "12/19/2023",
+      "10/12/2020",
+      "11/9/2023",
+      "6/21/2023",
+      "7/29/2022"
+    ]
+  },
+  {
+    "name": "Date Rept",
+    "dtype": "object",
+    "non_null": 19435,
+    "null_pct": 47.91,
+    "unique": 645,
+    "sample_values": [
+      "12/21/2023",
+      "10/17/2020",
+      "11/13/2023",
+      "6/23/2023",
+      "8/2/2022"
+    ]
+  },
+  {
+    "name": "Lab No",
+    "dtype": "object",
+    "non_null": 19359,
+    "null_pct": 48.11,
+    "unique": 16118,
+    "sample_values": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "6"
+    ]
+  },
+  {
+    "name": "1:1 Soil pH",
+    "dtype": "float64",
+    "non_null": 14789,
+    "null_pct": 60.36,
+    "unique": 333,
+    "sample_values": [],
+    "min": 3.9,
+    "max": 9.7,
+    "mean": 6.980371898032321,
+    "median": 7.0
+  },
+  {
+    "name": "WDRF Buffer",
+    "dtype": "float64",
+    "non_null": 4597,
+    "null_pct": 87.68,
+    "unique": 113,
+    "sample_values": [],
+    "min": 4.7,
+    "max": 665.0,
+    "mean": 6.720500326299761,
+    "median": 6.6
+  },
+  {
+    "name": "1:1 Soluble Salt",
+    "dtype": "float64",
+    "non_null": 14789,
+    "null_pct": 60.36,
+    "unique": 277,
+    "sample_values": [],
+    "min": 0.01,
+    "max": 40.8,
+    "mean": 0.2930456420312395,
+    "median": 0.17
+  },
+  {
+    "name": "Excess Lime",
+    "dtype": "object",
+    "non_null": 19322,
+    "null_pct": 48.21,
+    "unique": 11,
+    "sample_values": [
+      "NONE",
+      "HIGH",
+      "LOW",
+      "1",
+      "3"
+    ]
+  },
+  {
+    "name": "Organic Matter",
+    "dtype": "object",
+    "non_null": 14802,
+    "null_pct": 60.33,
+    "unique": 414,
+    "sample_values": [
+      "2.8",
+      "2.6",
+      "2.3",
+      "2.7",
+      "2.4"
+    ]
+  },
+  {
+    "name": "CO2-C",
+    "dtype": "float64",
+    "non_null": 14803,
+    "null_pct": 60.32,
+    "unique": 9050,
+    "sample_values": [],
+    "min": 1.0,
+    "max": 1023.75,
+    "mean": 84.27725798824562,
+    "median": 52.1
+  },
+  {
+    "name": "H2O Total N",
+    "dtype": "float64",
+    "non_null": 14869,
+    "null_pct": 60.15,
+    "unique": 4772,
+    "sample_values": [],
+    "min": 1.0,
+    "max": 2109.3,
+    "mean": 29.813675546239825,
+    "median": 24.72
+  },
+  {
+    "name": "H2O Organic N",
+    "dtype": "float64",
+    "non_null": 14865,
+    "null_pct": 60.16,
+    "unique": 2709,
+    "sample_values": [],
+    "min": -1.01,
+    "max": 1628.0,
+    "mean": 15.04133871510259,
+    "median": 13.98
+  },
+  {
+    "name": "H2O Total Organic C",
+    "dtype": "float64",
+    "non_null": 14869,
+    "null_pct": 60.15,
+    "unique": 10533,
+    "sample_values": [],
+    "min": 1.0,
+    "max": 27107.05,
+    "mean": 182.43852606865292,
+    "median": 167.77
+  },
+  {
+    "name": "H3A Nitrate",
+    "dtype": "float64",
+    "non_null": 14882,
+    "null_pct": 60.11,
+    "unique": 1997,
+    "sample_values": [],
+    "min": 0.1,
+    "max": 361.0,
+    "mean": 12.159776911705416,
+    "median": 7.13
+  },
+  {
+    "name": "H3A Ammonium",
+    "dtype": "float64",
+    "non_null": 14865,
+    "null_pct": 60.16,
+    "unique": 1147,
+    "sample_values": [],
+    "min": -2.37,
+    "max": 523.0,
+    "mean": 3.3525159771274806,
+    "median": 2.26
+  },
+  {
+    "name": "H3A Inorganic Nitrogen",
+    "dtype": "float64",
+    "non_null": 14865,
+    "null_pct": 60.16,
+    "unique": 3873,
+    "sample_values": [],
+    "min": 0.2,
+    "max": 585.3,
+    "mean": 15.52053212243525,
+    "median": 9.8
+  },
+  {
+    "name": "H3A Total Phosphorus",
+    "dtype": "float64",
+    "non_null": 14863,
+    "null_pct": 60.16,
+    "unique": 6723,
+    "sample_values": [],
+    "min": 0.41,
+    "max": 1535.88,
+    "mean": 41.056619121307946,
+    "median": 23.66
+  },
+  {
+    "name": "H3A Inorganic Phosphorus",
+    "dtype": "float64",
+    "non_null": 14863,
+    "null_pct": 60.16,
+    "unique": 2535,
+    "sample_values": [],
+    "min": 0.21,
+    "max": 1090.0,
+    "mean": 35.52672475274171,
+    "median": 19.4
+  },
+  {
+    "name": "H3A Organic Phosphorus",
+    "dtype": "float64",
+    "non_null": 14863,
+    "null_pct": 60.16,
+    "unique": 1793,
+    "sample_values": [],
+    "min": -1.38,
+    "max": 881.49,
+    "mean": 5.530178967906882,
+    "median": 3.96
+  },
+  {
+    "name": "H3A ICAP Potassium",
+    "dtype": "float64",
+    "non_null": 14863,
+    "null_pct": 60.16,
+    "unique": 9904,
+    "sample_values": [],
+    "min": 1.0,
+    "max": 18978.92,
+    "mean": 111.26069905133554,
+    "median": 77.11
+  },
+  {
+    "name": "H3A ICAP Calcium",
+    "dtype": "float64",
+    "non_null": 14863,
+    "null_pct": 60.16,
+    "unique": 13470,
+    "sample_values": [],
+    "min": 1.0,
+    "max": 10416.37,
+    "mean": 1041.246951490278,
+    "median": 714.3
+  },
+  {
+    "name": "H3A ICAP Aluminum",
+    "dtype": "float64",
+    "non_null": 14863,
+    "null_pct": 60.16,
+    "unique": 10125,
+    "sample_values": [],
+    "min": -2.76,
+    "max": 879.75,
+    "mean": 125.59662584942474,
+    "median": 126.41
+  },
+  {
+    "name": "H3A ICAP Iron",
+    "dtype": "float64",
+    "non_null": 14863,
+    "null_pct": 60.16,
+    "unique": 8643,
+    "sample_values": [],
+    "min": 0.79,
+    "max": 692.63,
+    "mean": 61.92570342461145,
+    "median": 55.62
+  },
+  {
+    "name": "H3A ICAP Sulfur",
+    "dtype": "float64",
+    "non_null": 14863,
+    "null_pct": 60.16,
+    "unique": 3996,
+    "sample_values": [],
+    "min": 0.69,
+    "max": 7867.88,
+    "mean": 28.088180044405572,
+    "median": 6.69
+  },
+  {
+    "name": "H3A ICAP Zinc",
+    "dtype": "float64",
+    "non_null": 14863,
+    "null_pct": 60.16,
+    "unique": 834,
+    "sample_values": [],
+    "min": 0.0,
+    "max": 51.7,
+    "mean": 1.1922619928681961,
+    "median": 0.66
+  },
+  {
+    "name": "H3A ICAP Manganese",
+    "dtype": "float64",
+    "non_null": 14863,
+    "null_pct": 60.16,
+    "unique": 3005,
+    "sample_values": [],
+    "min": 0.07,
+    "max": 398.7,
+    "mean": 9.121124941128976,
+    "median": 5.4
+  },
+  {
+    "name": "H3A ICAP Copper",
+    "dtype": "float64",
+    "non_null": 14863,
+    "null_pct": 60.16,
+    "unique": 388,
+    "sample_values": [],
+    "min": 0.0,
+    "max": 64.55,
+    "mean": 0.37003364058400057,
+    "median": 0.2
+  },
+  {
+    "name": "H3A ICAP Magnesium",
+    "dtype": "float64",
+    "non_null": 14863,
+    "null_pct": 60.16,
+    "unique": 10928,
+    "sample_values": [],
+    "min": 1.0,
+    "max": 1675.87,
+    "mean": 164.5880710489134,
+    "median": 139.73
+  },
+  {
+    "name": "H3A ICAP Sodium",
+    "dtype": "float64",
+    "non_null": 14863,
+    "null_pct": 60.16,
+    "unique": 6049,
+    "sample_values": [],
+    "min": 1.0,
+    "max": 5509.43,
+    "mean": 53.32250016820292,
+    "median": 19.64
+  },
+  {
+    "name": "% MAC",
+    "dtype": "float64",
+    "non_null": 14803,
+    "null_pct": 60.32,
+    "unique": 7306,
+    "sample_values": [],
+    "min": 0.28,
+    "max": 839.81,
+    "mean": 46.215186110923455,
+    "median": 32.02
+  },
+  {
+    "name": "Organic C:N",
+    "dtype": "float64",
+    "non_null": 14865,
+    "null_pct": 60.16,
+    "unique": 1328,
+    "sample_values": [],
+    "min": -0.99,
+    "max": 181.92,
+    "mean": 12.3872398250925,
+    "median": 12.23
+  },
+  {
+    "name": "Organic N:Inorganic N",
+    "dtype": "float64",
+    "non_null": 14865,
+    "null_pct": 60.16,
+    "unique": 821,
+    "sample_values": [],
+    "min": -0.5,
+    "max": 22.29,
+    "mean": 1.8395869492095527,
+    "median": 1.43
+  },
+  {
+    "name": "Organic N Release",
+    "dtype": "float64",
+    "non_null": 14805,
+    "null_pct": 60.32,
+    "unique": 2750,
+    "sample_values": [],
+    "min": -4.04,
+    "max": 1159.8,
+    "mean": 12.952559945964198,
+    "median": 12.0
+  },
+  {
+    "name": "Organic N Reserve",
+    "dtype": "float64",
+    "non_null": 14805,
+    "null_pct": 60.32,
+    "unique": 1353,
+    "sample_values": [],
+    "min": 0.0,
+    "max": 1228.17,
+    "mean": 2.09887200270179,
+    "median": 0.0
+  },
+  {
+    "name": "Organic P Release",
+    "dtype": "float64",
+    "non_null": 14803,
+    "null_pct": 60.32,
+    "unique": 1535,
+    "sample_values": [],
+    "min": -1.41,
+    "max": 399.6,
+    "mean": 4.151663851921908,
+    "median": 3.03
+  },
+  {
+    "name": "Organic P Reserve",
+    "dtype": "float64",
+    "non_null": 14803,
+    "null_pct": 60.32,
+    "unique": 1000,
+    "sample_values": [],
+    "min": 0.0,
+    "max": 855.7,
+    "mean": 1.3800371546308183,
+    "median": 0.07
+  },
+  {
+    "name": "Soil Health Calculation",
+    "dtype": "float64",
+    "non_null": 14803,
+    "null_pct": 60.32,
+    "unique": 2839,
+    "sample_values": [],
+    "min": 0.11,
+    "max": 608.23,
+    "mean": 12.138081469972303,
+    "median": 10.29
+  },
+  {
+    "name": "Available N",
+    "dtype": "float64",
+    "non_null": 14882,
+    "null_pct": 60.11,
+    "unique": 7426,
+    "sample_values": [],
+    "min": -3.65,
+    "max": 2364.3,
+    "mean": 57.97748017739551,
+    "median": 46.46
+  },
+  {
+    "name": "Available P",
+    "dtype": "float64",
+    "non_null": 14863,
+    "null_pct": 60.16,
+    "unique": 9579,
+    "sample_values": [],
+    "min": 0.94,
+    "max": 3182.09,
+    "mean": 91.22205140281235,
+    "median": 52.46
+  },
+  {
+    "name": "Available K",
+    "dtype": "float64",
+    "non_null": 14863,
+    "null_pct": 60.16,
+    "unique": 10631,
+    "sample_values": [],
+    "min": 1.2,
+    "max": 22774.7,
+    "mean": 133.511663190473,
+    "median": 92.54
+  },
+  {
+    "name": "Nutrient Value",
+    "dtype": "float64",
+    "non_null": 14863,
+    "null_pct": 60.16,
+    "unique": 10967,
+    "sample_values": [],
+    "min": -2.04,
+    "max": 14681.37,
+    "mean": 164.79960640516722,
+    "median": 129.31
+  },
+  {
+    "name": "Traditional N",
+    "dtype": "float64",
+    "non_null": 14863,
+    "null_pct": 60.16,
+    "unique": 3148,
+    "sample_values": [],
+    "min": 0.18,
+    "max": 684.0,
+    "mean": 25.046318374486976,
+    "median": 14.26
+  },
+  {
+    "name": "Haney Test N",
+    "dtype": "float64",
+    "non_null": 14803,
+    "null_pct": 60.32,
+    "unique": 7407,
+    "sample_values": [],
+    "min": -3.65,
+    "max": 2364.3,
+    "mean": 58.04196649327839,
+    "median": 46.47
+  },
+  {
+    "name": "Lbs N Difference",
+    "dtype": "float64",
+    "non_null": 14803,
+    "null_pct": 60.32,
+    "unique": 5225,
+    "sample_values": [],
+    "min": -5.47,
+    "max": 2214.78,
+    "mean": 33.04314598392218,
+    "median": 29.01
+  },
+  {
+    "name": "N savings",
+    "dtype": "float64",
+    "non_null": 14803,
+    "null_pct": 60.32,
+    "unique": 5399,
+    "sample_values": [],
+    "min": -5.69,
+    "max": 2303.37,
+    "mean": 32.5710578936702,
+    "median": 28.36
+  },
+  {
+    "name": "Past Crop",
+    "dtype": "object",
+    "non_null": 2596,
+    "null_pct": 93.04,
+    "unique": 18,
+    "sample_values": [
+      "ALL OTHER CROPS",
+      "SOYBEANS",
+      "COVER CROP MIX",
+      "Soybeans",
+      "ALFALFA"
+    ]
+  },
+  {
+    "name": "Crop 1",
+    "dtype": "object",
+    "non_null": 2590,
+    "null_pct": 93.06,
+    "unique": 104,
+    "sample_values": [
+      "CORN BU/A",
+      "SOYBEANS BU/A",
+      "WHEAT BU/A",
+      "GARDEN",
+      "FEED HAY T/A"
+    ]
+  },
+  {
+    "name": "YG 1",
+    "dtype": "object",
+    "non_null": 2585,
+    "null_pct": 93.07,
+    "unique": 140,
+    "sample_values": [
+      "3",
+      "250",
+      "60",
+      "1",
+      "50"
+    ]
+  },
+  {
+    "name": "Nitrogen Rec 1",
+    "dtype": "object",
+    "non_null": 2585,
+    "null_pct": 93.07,
+    "unique": 111,
+    "sample_values": [
+      "0",
+      "0.0",
+      "5",
+      "45",
+      "40"
+    ]
+  },
+  {
+    "name": "P205 Rec 1",
+    "dtype": "object",
+    "non_null": 2583,
+    "null_pct": 93.08,
+    "unique": 50,
+    "sample_values": [
+      "0",
+      "0.0",
+      "25",
+      "20",
+      "35"
+    ]
+  },
+  {
+    "name": "K2O Rec 1",
+    "dtype": "object",
+    "non_null": 2583,
+    "null_pct": 93.08,
+    "unique": 66,
+    "sample_values": [
+      "0",
+      "0.0",
+      "35",
+      "30",
+      "40"
+    ]
+  },
+  {
+    "name": "Magnesium Rec 1",
+    "dtype": "object",
+    "non_null": 2583,
+    "null_pct": 93.08,
+    "unique": 11,
+    "sample_values": [
+      "0",
+      "0.0",
+      "15",
+      "10",
+      "25"
+    ]
+  },
+  {
+    "name": "Sulfur Rec 1",
+    "dtype": "object",
+    "non_null": 2583,
+    "null_pct": 93.08,
+    "unique": 86,
+    "sample_values": [
+      "0",
+      "0.0",
+      "10",
+      "13",
+      "9"
+    ]
+  },
+  {
+    "name": "Zinc Rec 1",
+    "dtype": "object",
+    "non_null": 2583,
+    "null_pct": 93.08,
+    "unique": 32,
+    "sample_values": [
+      "0",
+      "0.0",
+      "13",
+      "2",
+      "3.0"
+    ]
+  },
+  {
+    "name": "Iron Rec 1",
+    "dtype": "object",
+    "non_null": 2583,
+    "null_pct": 93.08,
+    "unique": 7,
+    "sample_values": [
+      "0",
+      "0.0",
+      "***",
+      "-1",
+      "-1.0"
+    ]
+  },
+  {
+    "name": "Manganese Rec 1",
+    "dtype": "object",
+    "non_null": 2583,
+    "null_pct": 93.08,
+    "unique": 25,
+    "sample_values": [
+      "0",
+      "0.0",
+      "6",
+      "7",
+      "3"
+    ]
+  },
+  {
+    "name": "Copper Rec 1",
+    "dtype": "object",
+    "non_null": 2583,
+    "null_pct": 93.08,
+    "unique": 15,
+    "sample_values": [
+      "0",
+      "0.0",
+      "0.6",
+      "1.7",
+      "2.8"
+    ]
+  },
+  {
+    "name": "Lime Rec 1",
+    "dtype": "object",
+    "non_null": 1496,
+    "null_pct": 95.99,
+    "unique": 20,
+    "sample_values": [
+      "0.0",
+      "0",
+      "3.2",
+      "2.4",
+      "2.0"
+    ]
+  },
+  {
+    "name": "Crop 2",
+    "dtype": "object",
+    "non_null": 928,
+    "null_pct": 97.51,
+    "unique": 55,
+    "sample_values": [
+      "SOYBEANS BU/A",
+      "CORN BU/A",
+      "WHEAT BU/A",
+      "BARLEY, FEED BU/A",
+      "SOYBEAN BU/A"
+    ]
+  },
+  {
+    "name": "YG 2",
+    "dtype": "object",
+    "non_null": 928,
+    "null_pct": 97.51,
+    "unique": 96,
+    "sample_values": [
+      "60",
+      "60.0",
+      "200",
+      "50",
+      "40"
+    ]
+  },
+  {
+    "name": "Nitrogen Rec 2",
+    "dtype": "object",
+    "non_null": 928,
+    "null_pct": 97.51,
+    "unique": 107,
+    "sample_values": [
+      "0",
+      "0.0",
+      "5",
+      "145",
+      "130"
+    ]
+  },
+  {
+    "name": "P205 Rec 2",
+    "dtype": "object",
+    "non_null": 926,
+    "null_pct": 97.52,
+    "unique": 42,
+    "sample_values": [
+      "0",
+      "0.0",
+      "40",
+      "30",
+      "20"
+    ]
+  },
+  {
+    "name": "K2O Rec 2",
+    "dtype": "object",
+    "non_null": 926,
+    "null_pct": 97.52,
+    "unique": 51,
+    "sample_values": [
+      "0",
+      "0.0",
+      "25",
+      "30",
+      "20"
+    ]
+  },
+  {
+    "name": "Magnesium Rec 2",
+    "dtype": "object",
+    "non_null": 926,
+    "null_pct": 97.52,
+    "unique": 9,
+    "sample_values": [
+      "0",
+      "0.0",
+      "10.0",
+      "15",
+      "15.0"
+    ]
+  },
+  {
+    "name": "Sulfur Rec 2",
+    "dtype": "object",
+    "non_null": 926,
+    "null_pct": 97.52,
+    "unique": 70,
+    "sample_values": [
+      "0",
+      "0.0",
+      "10",
+      "6",
+      "16"
+    ]
+  },
+  {
+    "name": "Zinc Rec 2",
+    "dtype": "object",
+    "non_null": 926,
+    "null_pct": 97.52,
+    "unique": 31,
+    "sample_values": [
+      "0",
+      "0.0",
+      "14",
+      "2",
+      "2.0"
+    ]
+  },
+  {
+    "name": "Iron Rec 2",
+    "dtype": "object",
+    "non_null": 926,
+    "null_pct": 97.52,
+    "unique": 6,
+    "sample_values": [
+      "0",
+      "0.0",
+      "***",
+      "Iron Rec 2",
+      "-1.0"
+    ]
+  },
+  {
+    "name": "Manganese Rec 2",
+    "dtype": "object",
+    "non_null": 926,
+    "null_pct": 97.52,
+    "unique": 24,
+    "sample_values": [
+      "0",
+      "0.0",
+      "7.0",
+      "7",
+      "2"
+    ]
+  },
+  {
+    "name": "Copper Rec 2",
+    "dtype": "object",
+    "non_null": 926,
+    "null_pct": 97.52,
+    "unique": 10,
+    "sample_values": [
+      "0",
+      "0.0",
+      "1.7",
+      "2.8",
+      "0.6"
+    ]
+  },
+  {
+    "name": "Lime Rec 2",
+    "dtype": "object",
+    "non_null": 555,
+    "null_pct": 98.51,
+    "unique": 20,
+    "sample_values": [
+      "0.0",
+      "0",
+      "2.4",
+      "3.2",
+      "2.0"
+    ]
+  },
+  {
+    "name": "Crop 3",
+    "dtype": "object",
+    "non_null": 98,
+    "null_pct": 99.74,
+    "unique": 10,
+    "sample_values": [
+      "WHEAT BU/A",
+      "CORN BU/A",
+      "SOYBEANS BU/A",
+      "POPCORN LBS/A",
+      "RASPBERRY"
+    ]
+  },
+  {
+    "name": "YG 3",
+    "dtype": "object",
+    "non_null": 98,
+    "null_pct": 99.74,
+    "unique": 24,
+    "sample_values": [
+      "320.0",
+      "80.0",
+      "90.0",
+      "80",
+      "200"
+    ]
+  },
+  {
+    "name": "Nitrogen Rec 3",
+    "dtype": "object",
+    "non_null": 98,
+    "null_pct": 99.74,
+    "unique": 46,
+    "sample_values": [
+      "0.0",
+      "0",
+      "105",
+      "240.0",
+      "160"
+    ]
+  },
+  {
+    "name": "P205 Rec 3",
+    "dtype": "object",
+    "non_null": 98,
+    "null_pct": 99.74,
+    "unique": 25,
+    "sample_values": [
+      "0.0",
+      "25",
+      "0",
+      "35.0",
+      "30"
+    ]
+  },
+  {
+    "name": "K2O Rec 3",
+    "dtype": "object",
+    "non_null": 98,
+    "null_pct": 99.74,
+    "unique": 22,
+    "sample_values": [
+      "0.0",
+      "0",
+      "30.0",
+      "20",
+      "35.0"
+    ]
+  },
+  {
+    "name": "Magnesium Rec 3",
+    "dtype": "object",
+    "non_null": 98,
+    "null_pct": 99.74,
+    "unique": 4,
+    "sample_values": [
+      "0.0",
+      "0",
+      "Magnesium Rec 3",
+      "15.0"
+    ]
+  },
+  {
+    "name": "Sulfur Rec 3",
+    "dtype": "object",
+    "non_null": 98,
+    "null_pct": 99.74,
+    "unique": 37,
+    "sample_values": [
+      "0.0",
+      "0",
+      "20",
+      "15",
+      "32.0"
+    ]
+  },
+  {
+    "name": "Zinc Rec 3",
+    "dtype": "object",
+    "non_null": 98,
+    "null_pct": 99.74,
+    "unique": 13,
+    "sample_values": [
+      "0.0",
+      "0",
+      "1",
+      "5.0",
+      "2.0"
+    ]
+  },
+  {
+    "name": "Iron Rec 3",
+    "dtype": "object",
+    "non_null": 98,
+    "null_pct": 99.74,
+    "unique": 4,
+    "sample_values": [
+      "0",
+      "0.0",
+      "***",
+      "Iron Rec 3"
+    ]
+  },
+  {
+    "name": "Manganese Rec 3",
+    "dtype": "object",
+    "non_null": 98,
+    "null_pct": 99.74,
+    "unique": 8,
+    "sample_values": [
+      "0.0",
+      "0",
+      "Manganese Rec 3",
+      "9.0",
+      "3.0"
+    ]
+  },
+  {
+    "name": "Copper Rec 3",
+    "dtype": "object",
+    "non_null": 98,
+    "null_pct": 99.74,
+    "unique": 6,
+    "sample_values": [
+      "0.0",
+      "0",
+      "Copper Rec 3",
+      "1.7",
+      "2.8"
+    ]
+  },
+  {
+    "name": "Lime Rec 3",
+    "dtype": "object",
+    "non_null": 75,
+    "null_pct": 99.8,
+    "unique": 6,
+    "sample_values": [
+      "0.0",
+      "0",
+      "4",
+      "Lime Rec 3",
+      "3.2"
+    ]
+  },
+  {
+    "name": "Beta Glucosidase ppm pNP g-1 soil h-1",
+    "dtype": "float64",
+    "non_null": 0,
+    "null_pct": 100.0,
+    "unique": 0,
+    "sample_values": []
+  },
+  {
+    "name": "Urease ppm NH4-N g-1 soil h-1",
+    "dtype": "float64",
+    "non_null": 0,
+    "null_pct": 100.0,
+    "unique": 0,
+    "sample_values": []
+  },
+  {
+    "name": "Phosphodiesterase ppm pNP g-1 soil h-1",
+    "dtype": "float64",
+    "non_null": 0,
+    "null_pct": 100.0,
+    "unique": 0,
+    "sample_values": []
+  },
+  {
+    "name": "Dehydrogenase ppm INTF g-1 soil h-1",
+    "dtype": "float64",
+    "non_null": 0,
+    "null_pct": 100.0,
+    "unique": 0,
+    "sample_values": []
+  },
+  {
+    "name": "Fluorescein Diacetate Hydrolysis ppm fluorescein g-1 soil 3h-1",
+    "dtype": "float64",
+    "non_null": 0,
+    "null_pct": 100.0,
+    "unique": 0,
+    "sample_values": []
+  },
+  {
+    "name": "Beta Glucosaminidase ppm pNP g-1 soil h-1",
+    "dtype": "float64",
+    "non_null": 0,
+    "null_pct": 100.0,
+    "unique": 0,
+    "sample_values": []
+  },
+  {
+    "name": "Phosphomonoesterases (Acid) ppm pNP g-1 soil h-1",
+    "dtype": "float64",
+    "non_null": 0,
+    "null_pct": 100.0,
+    "unique": 0,
+    "sample_values": []
+  },
+  {
+    "name": "Phosphomonoesterases (Alkaline) ppm pNP g-1 soil h-1",
+    "dtype": "float64",
+    "non_null": 0,
+    "null_pct": 100.0,
+    "unique": 0,
+    "sample_values": []
+  },
+  {
+    "name": "Arylsulfatase ppm pNP g-1 soil h-1",
+    "dtype": "float64",
+    "non_null": 0,
+    "null_pct": 100.0,
+    "unique": 0,
+    "sample_values": []
+  },
+  {
+    "name": "Enzyme Soil Moisture %",
+    "dtype": "float64",
+    "non_null": 52,
+    "null_pct": 99.86,
+    "unique": 2,
+    "sample_values": [],
+    "min": 0.0,
+    "max": 6.0,
+    "mean": 2.769230769230769,
+    "median": 0.0
+  },
+  {
+    "name": "Beginning Depth",
+    "dtype": "object",
+    "non_null": 19429,
+    "null_pct": 47.93,
+    "unique": 17,
+    "sample_values": [
+      "0",
+      "0.0",
+      "6",
+      "12",
+      "8"
+    ]
+  },
+  {
+    "name": "Ending Depth",
+    "dtype": "object",
+    "non_null": 19427,
+    "null_pct": 47.93,
+    "unique": 41,
+    "sample_values": [
+      "6",
+      "8",
+      "6.0",
+      "8.0",
+      "12"
+    ]
+  },
+  {
+    "name": "_source_batch",
+    "dtype": "object",
+    "non_null": 37310,
+    "null_pct": 0.0,
+    "unique": 4,
+    "sample_values": [
+      "Batch_4",
+      "Batch_2",
+      "Batch_3",
+      "Batch_1"
+    ]
+  },
+  {
+    "name": "_source_file",
+    "dtype": "object",
+    "non_null": 37310,
+    "null_pct": 0.0,
+    "unique": 2500,
+    "sample_values": [
+      "Processed File (1353).csv",
+      "Processed File (5019).csv",
+      "Processed File (4863).csv",
+      "Processed File (4862).csv",
+      "Processed File (4264).csv"
+    ]
+  },
+  {
+    "name": "Cover Crop Mix",
+    "dtype": "object",
+    "non_null": 11968,
+    "null_pct": 67.92,
+    "unique": 8,
+    "sample_values": [
+      "50% Legume 50% Grass",
+      "40% Legume 60% Grass",
+      "20% Legume 80% Grass",
+      "30% Legume 70% Grass",
+      "10% Legume 90% Grass"
+    ]
+  },
+  {
+    "name": "Cover crop mix",
+    "dtype": "object",
+    "non_null": 6164,
+    "null_pct": 83.48,
+    "unique": 7,
+    "sample_values": [
+      "50% Legume 50% Grass",
+      "40% Legume 60% Grass",
+      "60% Legume 40% Grass",
+      "20% Legume 80% Grass",
+      "30% Legume 70% Grass"
+    ]
+  },
+  {
+    "name": "Sample Type",
+    "dtype": "object",
+    "non_null": 4545,
+    "null_pct": 87.82,
+    "unique": 3,
+    "sample_values": [
+      "SOIL",
+      "SOIL HEALTH",
+      "Cust ID"
+    ]
+  },
+  {
+    "name": "Test ID",
+    "dtype": "object",
+    "non_null": 152,
+    "null_pct": 99.59,
+    "unique": 4,
+    "sample_values": [
+      "100",
+      "N/A ",
+      "100.0",
+      "Company"
+    ]
+  },
+  {
+    "name": "Soil pH 1:1",
+    "dtype": "object",
+    "non_null": 4454,
+    "null_pct": 88.06,
+    "unique": 222,
+    "sample_values": [
+      "7.5",
+      "7.4",
+      "7.2",
+      "7.3",
+      "7.7"
+    ]
+  },
+  {
+    "name": "Wdrf Buffer",
+    "dtype": "object",
+    "non_null": 1606,
+    "null_pct": 95.7,
+    "unique": 69,
+    "sample_values": [
+      "0.0",
+      "6.7",
+      "6.8",
+      "6.6",
+      "6.5"
+    ]
+  },
+  {
+    "name": "1:1 Electrical Conductivity, mmho/cm",
+    "dtype": "object",
+    "non_null": 4530,
+    "null_pct": 87.86,
+    "unique": 182,
+    "sample_values": [
+      "0.13",
+      "0.1",
+      "0.14",
+      "0.16",
+      "0.15"
+    ]
+  },
+  {
+    "name": "Organic Matter, % LOI",
+    "dtype": "object",
+    "non_null": 4540,
+    "null_pct": 87.83,
+    "unique": 273,
+    "sample_values": [
+      "0.6",
+      "2.5",
+      "2.8",
+      "2.6",
+      "2.7"
+    ]
+  },
+  {
+    "name": "Soil Respiration, ppm CO2-C",
+    "dtype": "object",
+    "non_null": 4538,
+    "null_pct": 87.84,
+    "unique": 3627,
+    "sample_values": [
+      "6.8",
+      "6.2",
+      "6.3",
+      "4.9",
+      "3.1"
+    ]
+  },
+  {
+    "name": "H2O Total Org. C, ppm C",
+    "dtype": "object",
+    "non_null": 4538,
+    "null_pct": 87.84,
+    "unique": 3842,
+    "sample_values": [
+      "42",
+      "41",
+      "44",
+      "51",
+      "52"
+    ]
+  },
+  {
+    "name": "H2O Total N, ppm N",
+    "dtype": "object",
+    "non_null": 4538,
+    "null_pct": 87.84,
+    "unique": 2778,
+    "sample_values": [
+      "24.3",
+      "13.6",
+      "12.3",
+      "12.8",
+      "22.9"
+    ]
+  },
+  {
+    "name": "H2O Org. N, ppm N",
+    "dtype": "object",
+    "non_null": 4538,
+    "null_pct": 87.84,
+    "unique": 1962,
+    "sample_values": [
+      "3.9",
+      "4.4",
+      "4.7",
+      "3.1",
+      "4.0"
+    ]
+  },
+  {
+    "name": "H3A Nitrate, ppm NO3-N",
+    "dtype": "object",
+    "non_null": 4538,
+    "null_pct": 87.84,
+    "unique": 1438,
+    "sample_values": [
+      "10.1",
+      "11.7",
+      "10.6",
+      "10.5",
+      "11.1"
+    ]
+  },
+  {
+    "name": "H3A Ammonium, ppm NH4-N",
+    "dtype": "object",
+    "non_null": 4538,
+    "null_pct": 87.84,
+    "unique": 798,
+    "sample_values": [
+      "1.2",
+      "1.0",
+      "1.3",
+      "1.1",
+      "0.9"
+    ]
+  },
+  {
+    "name": "H3A Inorganic N, ppm N",
+    "dtype": "object",
+    "non_null": 4538,
+    "null_pct": 87.84,
+    "unique": 2340,
+    "sample_values": [
+      "6.3",
+      "8.9",
+      "7.9",
+      "7.0",
+      "6.0"
+    ]
+  },
+  {
+    "name": "H3A Total Phosphorus, ppm P",
+    "dtype": "object",
+    "non_null": 4538,
+    "null_pct": 87.84,
+    "unique": 3247,
+    "sample_values": [
+      "3",
+      "4",
+      "10",
+      "5",
+      "13"
+    ]
+  },
+  {
+    "name": "H3A Inorganic Phosphorus, ppm PO4-P",
+    "dtype": "object",
+    "non_null": 4538,
+    "null_pct": 87.84,
+    "unique": 1698,
+    "sample_values": [
+      "11.3",
+      "2.6",
+      "17.4",
+      "12.5",
+      "11.0"
+    ]
+  },
+  {
+    "name": "H3A Organic Phosphorus, ppm P",
+    "dtype": "object",
+    "non_null": 4538,
+    "null_pct": 87.84,
+    "unique": 1333,
+    "sample_values": [
+      "0.9",
+      "1.0",
+      "0.8",
+      "2.0",
+      "2.5"
+    ]
+  },
+  {
+    "name": "H3A Potassium, ppm K",
+    "dtype": "object",
+    "non_null": 4538,
+    "null_pct": 87.84,
+    "unique": 3828,
+    "sample_values": [
+      "52",
+      "20",
+      "49",
+      "57",
+      "33"
+    ]
+  },
+  {
+    "name": "H3A Calcium, ppm Ca",
+    "dtype": "object",
+    "non_null": 4438,
+    "null_pct": 88.11,
+    "unique": 4290,
+    "sample_values": [
+      "3051",
+      "3080",
+      "2861",
+      "629.0",
+      "3213"
+    ]
+  },
+  {
+    "name": "H3A Magnesium, ppm Mg",
+    "dtype": "object",
+    "non_null": 3872,
+    "null_pct": 89.62,
+    "unique": 3584,
+    "sample_values": [
+      "135.0",
+      "109.85",
+      "160",
+      "167.0",
+      "167.41"
+    ]
+  },
+  {
+    "name": "H3A Sodium, ppm Na",
+    "dtype": "object",
+    "non_null": 4438,
+    "null_pct": 88.11,
+    "unique": 2923,
+    "sample_values": [
+      "8",
+      "8.0",
+      "15.0",
+      "7.0",
+      "13.0"
+    ]
+  },
+  {
+    "name": "H3A Sulfur, ppm S",
+    "dtype": "object",
+    "non_null": 4438,
+    "null_pct": 88.11,
+    "unique": 2171,
+    "sample_values": [
+      "3.47",
+      "3.6",
+      "4.04",
+      "3.67",
+      "5.74"
+    ]
+  },
+  {
+    "name": "H3A Zinc, ppm Zn",
+    "dtype": "object",
+    "non_null": 4438,
+    "null_pct": 88.11,
+    "unique": 723,
+    "sample_values": [
+      "0.01",
+      "0.02",
+      "0.03",
+      "0.33",
+      "0.51"
+    ]
+  },
+  {
+    "name": "H3A Iron, ppm Fe",
+    "dtype": "object",
+    "non_null": 4438,
+    "null_pct": 88.11,
+    "unique": 3443,
+    "sample_values": [
+      "1.5",
+      "1.8",
+      "2.8",
+      "1.9",
+      "2.3"
+    ]
+  },
+  {
+    "name": "H3A Manganese, ppm Mn",
+    "dtype": "object",
+    "non_null": 4438,
+    "null_pct": 88.11,
+    "unique": 1692,
+    "sample_values": [
+      "1.2",
+      "3.6",
+      "4.1",
+      "2.1",
+      "3.5"
+    ]
+  },
+  {
+    "name": "H3A Copper, ppm Cu",
+    "dtype": "object",
+    "non_null": 4438,
+    "null_pct": 88.11,
+    "unique": 248,
+    "sample_values": [
+      "0.16",
+      "0.08",
+      "0.11",
+      "0.13",
+      "0.09"
+    ]
+  },
+  {
+    "name": "H3A Aluminum, ppm Al",
+    "dtype": "object",
+    "non_null": 4438,
+    "null_pct": 88.11,
+    "unique": 3781,
+    "sample_values": [
+      "5.8",
+      "10.8",
+      "9.0",
+      "12.7",
+      "10.9"
+    ]
+  },
+  {
+    "name": "Microbially Active C, %",
+    "dtype": "object",
+    "non_null": 4438,
+    "null_pct": 88.11,
+    "unique": 3147,
+    "sample_values": [
+      "9.7",
+      "12.4",
+      "9.4",
+      "18.7",
+      "18.6"
+    ]
+  },
+  {
+    "name": "H2O Org. C:Org. N ",
+    "dtype": "float64",
+    "non_null": 3510,
+    "null_pct": 90.59,
+    "unique": 1050,
+    "sample_values": [],
+    "min": 2.16,
+    "max": 181.92,
+    "mean": 12.473447293447295,
+    "median": 12.27
+  },
+  {
+    "name": "H2O Org. N:H3A Inorg. N",
+    "dtype": "object",
+    "non_null": 4438,
+    "null_pct": 88.11,
+    "unique": 576,
+    "sample_values": [
+      "0.6",
+      "1.44",
+      "1.21",
+      "0.81",
+      "0.54"
+    ]
+  },
+  {
+    "name": "Organic N Release, ppm N",
+    "dtype": "object",
+    "non_null": 4438,
+    "null_pct": 88.11,
+    "unique": 2145,
+    "sample_values": [
+      "10.82",
+      "13.99",
+      "11.6",
+      "11.87",
+      "14.14"
+    ]
+  },
+  {
+    "name": "Organic N Reserve, ppm N",
+    "dtype": "object",
+    "non_null": 4438,
+    "null_pct": 88.11,
+    "unique": 992,
+    "sample_values": [
+      "0.0",
+      "0",
+      "2.13",
+      "2.46",
+      "1.3"
+    ]
+  },
+  {
+    "name": "Organic P Release, ppm P",
+    "dtype": "object",
+    "non_null": 4438,
+    "null_pct": 88.11,
+    "unique": 1141,
+    "sample_values": [
+      "0.26",
+      "2.0",
+      "1.2",
+      "2.43",
+      "2.3"
+    ]
+  },
+  {
+    "name": "Organic P Reserve, ppm P",
+    "dtype": "object",
+    "non_null": 4438,
+    "null_pct": 88.11,
+    "unique": 746,
+    "sample_values": [
+      "0.0",
+      "0",
+      "0.6",
+      "0.8",
+      "0.43"
+    ]
+  },
+  {
+    "name": "Soil Health Score",
+    "dtype": "object",
+    "non_null": 4438,
+    "null_pct": 88.11,
+    "unique": 1996,
+    "sample_values": [
+      "6.3",
+      "6.9",
+      "6.1",
+      "5.2",
+      "4.8"
+    ]
+  },
+  {
+    "name": "Available N, lbs/A",
+    "dtype": "object",
+    "non_null": 4438,
+    "null_pct": 88.11,
+    "unique": 3438,
+    "sample_values": [
+      "29.1",
+      "37.6",
+      "29.7",
+      "40.5",
+      "35.48"
+    ]
+  },
+  {
+    "name": "Available P, lbs/A",
+    "dtype": "object",
+    "non_null": 4438,
+    "null_pct": 88.11,
+    "unique": 3818,
+    "sample_values": [
+      "6.2",
+      "7.0",
+      "6.3",
+      "6.8",
+      "7.2"
+    ]
+  },
+  {
+    "name": "Available K, lbs/A",
+    "dtype": "object",
+    "non_null": 4438,
+    "null_pct": 88.11,
+    "unique": 3966,
+    "sample_values": [
+      "61.9",
+      "58.7",
+      "62.3",
+      "69.6",
+      "96.52"
+    ]
+  },
+  {
+    "name": "Nutrient Value, $",
+    "dtype": "object",
+    "non_null": 4438,
+    "null_pct": 88.11,
+    "unique": 4109,
+    "sample_values": [
+      "85.77",
+      "123.03",
+      "57.68",
+      "104.6",
+      "91.3"
+    ]
+  },
+  {
+    "name": "Traditional Test N, lbs/A",
+    "dtype": "object",
+    "non_null": 4438,
+    "null_pct": 88.11,
+    "unique": 1999,
+    "sample_values": [
+      "25.2",
+      "18.9",
+      "18.18",
+      "19.08",
+      "26.64"
+    ]
+  },
+  {
+    "name": "Haney Test N, lbs/A",
+    "dtype": "object",
+    "non_null": 4438,
+    "null_pct": 88.11,
+    "unique": 3438,
+    "sample_values": [
+      "29.1",
+      "37.6",
+      "29.7",
+      "40.5",
+      "35.48"
+    ]
+  },
+  {
+    "name": "N Difference, lbs/A",
+    "dtype": "object",
+    "non_null": 4438,
+    "null_pct": 88.11,
+    "unique": 2842,
+    "sample_values": [
+      "10.3",
+      "7.7",
+      "10.4",
+      "10.9",
+      "8.9"
+    ]
+  },
+  {
+    "name": "N Savings, $",
+    "dtype": "object",
+    "non_null": 4438,
+    "null_pct": 88.11,
+    "unique": 3074,
+    "sample_values": [
+      "36.39",
+      "21.34",
+      "7.86",
+      "18.1",
+      "19.74"
+    ]
+  },
+  {
+    "name": "H3A Magnessium, ppm Mg",
+    "dtype": "float64",
+    "non_null": 566,
+    "null_pct": 98.48,
+    "unique": 307,
+    "sample_values": [],
+    "min": 26.0,
+    "max": 768.67,
+    "mean": 161.96349823321555,
+    "median": 138.0
+  },
+  {
+    "name": "Lab ID",
+    "dtype": "float64",
+    "non_null": 76,
+    "null_pct": 99.8,
+    "unique": 76,
+    "sample_values": [],
+    "min": 144.0,
+    "max": 243.0,
+    "mean": 187.81578947368422,
+    "median": 181.5
+  },
+  {
+    "name": "1:1 pH",
+    "dtype": "float64",
+    "non_null": 76,
+    "null_pct": 99.8,
+    "unique": 29,
+    "sample_values": [],
+    "min": 4.7,
+    "max": 8.3,
+    "mean": 6.953947368421054,
+    "median": 7.15
+  },
+  {
+    "name": "Woodruff Buffer pH",
+    "dtype": "float64",
+    "non_null": 20,
+    "null_pct": 99.95,
+    "unique": 8,
+    "sample_values": [],
+    "min": 5.8,
+    "max": 6.8,
+    "mean": 6.380000000000001,
+    "median": 6.4
+  },
+  {
+    "name": "H1",
+    "dtype": "object",
+    "non_null": 51,
+    "null_pct": 99.86,
+    "unique": 51,
+    "sample_values": [
+      "Lab No",
+      "C6N13F",
+      "C6N135",
+      "C6N136",
+      "C6N137"
+    ]
+  },
+  {
+    "name": "H2O Org. C:Org. N",
+    "dtype": "object",
+    "non_null": 928,
+    "null_pct": 97.51,
+    "unique": 568,
+    "sample_values": [
+      "13.42",
+      "12.96",
+      "13.75",
+      "13.74",
+      "10.23"
+    ]
+  },
+  {
+    "name": "H2O Calcium, ppm Ca",
+    "dtype": "float64",
+    "non_null": 2,
+    "null_pct": 99.99,
+    "unique": 2,
+    "sample_values": [],
+    "min": 34.5,
+    "max": 64.5,
+    "mean": 49.5,
+    "median": 49.5
+  },
+  {
+    "name": "Beginning Depth ",
+    "dtype": "float64",
+    "non_null": 2,
+    "null_pct": 99.99,
+    "unique": 1,
+    "sample_values": [],
+    "min": 0.0,
+    "max": 0.0,
+    "mean": 0.0,
+    "median": 0.0
+  },
+  {
+    "name": "1N KCl-Nitrate, ppm NO3-N",
+    "dtype": "float64",
+    "non_null": 2,
+    "null_pct": 99.99,
+    "unique": 2,
+    "sample_values": [],
+    "min": 0.9,
+    "max": 1.6,
+    "mean": 1.25,
+    "median": 1.25
+  },
+  {
+    "name": "1N KCl-Nitrate, lbs/A N",
+    "dtype": "float64",
+    "non_null": 2,
+    "null_pct": 99.99,
+    "unique": 2,
+    "sample_values": [],
+    "min": 2.0,
+    "max": 3.0,
+    "mean": 2.5,
+    "median": 2.5
+  },
+  {
+    "name": "M3-Phosphate, ppm PO4-P",
+    "dtype": "float64",
+    "non_null": 2,
+    "null_pct": 99.99,
+    "unique": 2,
+    "sample_values": [],
+    "min": 176.4,
+    "max": 200.1,
+    "mean": 188.25,
+    "median": 188.25
+  },
+  {
+    "name": "M3-Sulfur, ppm S",
+    "dtype": "float64",
+    "non_null": 2,
+    "null_pct": 99.99,
+    "unique": 2,
+    "sample_values": [],
+    "min": 14.2,
+    "max": 17.5,
+    "mean": 15.85,
+    "median": 15.85
+  },
+  {
+    "name": "NH4OAc-Potassium, ppm K ",
+    "dtype": "float64",
+    "non_null": 2,
+    "null_pct": 99.99,
+    "unique": 2,
+    "sample_values": [],
+    "min": 95.5,
+    "max": 107.3,
+    "mean": 101.4,
+    "median": 101.4
+  },
+  {
+    "name": "NH4OAc-Calcium, ppm Ca ",
+    "dtype": "float64",
+    "non_null": 2,
+    "null_pct": 99.99,
+    "unique": 2,
+    "sample_values": [],
+    "min": 972.0,
+    "max": 1077.0,
+    "mean": 1024.5,
+    "median": 1024.5
+  },
+  {
+    "name": "NH4OAc-Magnesium, ppm Mg",
+    "dtype": "float64",
+    "non_null": 2,
+    "null_pct": 99.99,
+    "unique": 2,
+    "sample_values": [],
+    "min": 174.17,
+    "max": 200.5,
+    "mean": 187.33499999999998,
+    "median": 187.33499999999998
+  },
+  {
+    "name": "NH4OAc-Sodium, ppm Na ",
+    "dtype": "float64",
+    "non_null": 2,
+    "null_pct": 99.99,
+    "unique": 2,
+    "sample_values": [],
+    "min": 22.26,
+    "max": 22.32,
+    "mean": 22.29,
+    "median": 22.29
+  },
+  {
+    "name": "DTPA-Zinc, ppm Zn",
+    "dtype": "float64",
+    "non_null": 2,
+    "null_pct": 99.99,
+    "unique": 2,
+    "sample_values": [],
+    "min": 0.56,
+    "max": 1.19,
+    "mean": 0.875,
+    "median": 0.875
+  },
+  {
+    "name": "DTPA-Iron, ppm Fe",
+    "dtype": "float64",
+    "non_null": 2,
+    "null_pct": 99.99,
+    "unique": 2,
+    "sample_values": [],
+    "min": 127.42,
+    "max": 144.87,
+    "mean": 136.145,
+    "median": 136.145
+  },
+  {
+    "name": "DTPA-Manganese, ppm Mn ",
+    "dtype": "float64",
+    "non_null": 2,
+    "null_pct": 99.99,
+    "unique": 2,
+    "sample_values": [],
+    "min": 10.36,
+    "max": 11.29,
+    "mean": 10.825,
+    "median": 10.825
+  },
+  {
+    "name": "DTPA-Copper, ppm Cu",
+    "dtype": "float64",
+    "non_null": 2,
+    "null_pct": 99.99,
+    "unique": 2,
+    "sample_values": [],
+    "min": 0.25,
+    "max": 0.49,
+    "mean": 0.37,
+    "median": 0.37
+  },
+  {
+    "name": "H2O-Boron, ppm B",
+    "dtype": "float64",
+    "non_null": 2,
+    "null_pct": 99.99,
+    "unique": 2,
+    "sample_values": [],
+    "min": 0.87,
+    "max": 0.92,
+    "mean": 0.895,
+    "median": 0.895
+  },
+  {
+    "name": "CaNO3-Chloride, ppm Cl",
+    "dtype": "float64",
+    "non_null": 0,
+    "null_pct": 100.0,
+    "unique": 0,
+    "sample_values": []
+  },
+  {
+    "name": "CEC, meq/100g",
+    "dtype": "float64",
+    "non_null": 2,
+    "null_pct": 99.99,
+    "unique": 2,
+    "sample_values": [],
+    "min": 11.7,
+    "max": 12.4,
+    "mean": 12.05,
+    "median": 12.05
+  },
+  {
+    "name": "Base Saturation, %",
+    "dtype": "float64",
+    "non_null": 2,
+    "null_pct": 99.99,
+    "unique": 2,
+    "sample_values": [],
+    "min": 56.0,
+    "max": 61.0,
+    "mean": 58.5,
+    "median": 58.5
+  },
+  {
+    "name": "Hydrogen, % Sat",
+    "dtype": "float64",
+    "non_null": 2,
+    "null_pct": 99.99,
+    "unique": 2,
+    "sample_values": [],
+    "min": 39.0,
+    "max": 44.0,
+    "mean": 41.5,
+    "median": 41.5
+  },
+  {
+    "name": "Calcium, % Sat",
+    "dtype": "float64",
+    "non_null": 2,
+    "null_pct": 99.99,
+    "unique": 2,
+    "sample_values": [],
+    "min": 39.0,
+    "max": 46.0,
+    "mean": 42.5,
+    "median": 42.5
+  },
+  {
+    "name": "Magnesium, % Sat",
+    "dtype": "float64",
+    "non_null": 2,
+    "null_pct": 99.99,
+    "unique": 2,
+    "sample_values": [],
+    "min": 12.0,
+    "max": 13.0,
+    "mean": 12.5,
+    "median": 12.5
+  },
+  {
+    "name": "Potassium, % Sat",
+    "dtype": "float64",
+    "non_null": 2,
+    "null_pct": 99.99,
+    "unique": 1,
+    "sample_values": [],
+    "min": 2.0,
+    "max": 2.0,
+    "mean": 2.0,
+    "median": 2.0
+  },
+  {
+    "name": "Sodium, % Sat",
+    "dtype": "float64",
+    "non_null": 2,
+    "null_pct": 99.99,
+    "unique": 1,
+    "sample_values": [],
+    "min": 1.0,
+    "max": 1.0,
+    "mean": 1.0,
+    "median": 1.0
+  },
+  {
+    "name": "Total Organic Carbon, % C",
+    "dtype": "float64",
+    "non_null": 0,
+    "null_pct": 100.0,
+    "unique": 0,
+    "sample_values": []
+  },
+  {
+    "name": "Total Carbon, % C",
+    "dtype": "float64",
+    "non_null": 0,
+    "null_pct": 100.0,
+    "unique": 0,
+    "sample_values": []
+  },
+  {
+    "name": "Total Nitrogen, % N",
+    "dtype": "float64",
+    "non_null": 0,
+    "null_pct": 100.0,
+    "unique": 0,
+    "sample_values": []
+  },
+  {
+    "name": "Bulk Density, g/cm3",
+    "dtype": "float64",
+    "non_null": 0,
+    "null_pct": 100.0,
+    "unique": 0,
+    "sample_values": []
+  },
+  {
+    "name": "Boron Rec 1",
+    "dtype": "float64",
+    "non_null": 0,
+    "null_pct": 100.0,
+    "unique": 0,
+    "sample_values": []
+  },
+  {
+    "name": "Chloride Rec 1",
+    "dtype": "float64",
+    "non_null": 0,
+    "null_pct": 100.0,
+    "unique": 0,
+    "sample_values": []
+  },
+  {
+    "name": "Boron Rec 2",
+    "dtype": "float64",
+    "non_null": 0,
+    "null_pct": 100.0,
+    "unique": 0,
+    "sample_values": []
+  },
+  {
+    "name": "Chloride Rec 2",
+    "dtype": "float64",
+    "non_null": 0,
+    "null_pct": 100.0,
+    "unique": 0,
+    "sample_values": []
+  },
+  {
+    "name": "Boron Rec 3",
+    "dtype": "float64",
+    "non_null": 0,
+    "null_pct": 100.0,
+    "unique": 0,
+    "sample_values": []
+  },
+  {
+    "name": "Chloride Rec 3",
+    "dtype": "float64",
+    "non_null": 0,
+    "null_pct": 100.0,
+    "unique": 0,
+    "sample_values": []
+  },
+  {
+    "name": "MODUS ID's",
+    "dtype": "object",
+    "non_null": 25,
+    "null_pct": 99.93,
+    "unique": 2,
+    "sample_values": [
+      "SOIL HEALTH",
+      "Sample Type"
+    ]
+  },
+  {
+    "name": "H2",
+    "dtype": "object",
+    "non_null": 1,
+    "null_pct": 100.0,
+    "unique": 1,
+    "sample_values": [
+      "Test ID"
+    ]
+  },
+  {
+    "name": "H3",
+    "dtype": "object",
+    "non_null": 25,
+    "null_pct": 99.93,
+    "unique": 2,
+    "sample_values": [
+      "3/30/2022",
+      "Date Recd"
+    ]
+  },
+  {
+    "name": "H4",
+    "dtype": "object",
+    "non_null": 25,
+    "null_pct": 99.93,
+    "unique": 2,
+    "sample_values": [
+      "4/1/2022",
+      "Date Rept"
+    ]
+  },
+  {
+    "name": "H5",
+    "dtype": "object",
+    "non_null": 25,
+    "null_pct": 99.93,
+    "unique": 2,
+    "sample_values": [
+      "117",
+      "Cust ID"
+    ]
+  },
+  {
+    "name": "H6",
+    "dtype": "object",
+    "non_null": 25,
+    "null_pct": 99.93,
+    "unique": 2,
+    "sample_values": [
+      "TRISH JACKSON",
+      "Name"
+    ]
+  },
+  {
+    "name": "H7",
+    "dtype": "object",
+    "non_null": 25,
+    "null_pct": 99.93,
+    "unique": 2,
+    "sample_values": [
+      "PRAIRIECHAR INC.",
+      "Company"
+    ]
+  },
+  {
+    "name": "H8",
+    "dtype": "object",
+    "non_null": 25,
+    "null_pct": 99.93,
+    "unique": 3,
+    "sample_values": [
+      "Hunnicutt Farms ",
+      "Hunnicutt Farms",
+      "Grower"
+    ]
+  },
+  {
+    "name": "H9",
+    "dtype": "object",
+    "non_null": 25,
+    "null_pct": 99.93,
+    "unique": 25,
+    "sample_values": [
+      "Field ID",
+      "hunn0011d-2",
+      "hunn0023-2",
+      "hunn0023-1",
+      "hunn0021-2"
+    ]
+  },
+  {
+    "name": "H10",
+    "dtype": "object",
+    "non_null": 25,
+    "null_pct": 99.93,
+    "unique": 2,
+    "sample_values": [
+      "3/28/2022",
+      "Sample ID 1"
+    ]
+  },
+  {
+    "name": "H11",
+    "dtype": "object",
+    "non_null": 1,
+    "null_pct": 100.0,
+    "unique": 1,
+    "sample_values": [
+      "Sample ID 2"
+    ]
+  },
+  {
+    "name": "H12",
+    "dtype": "object",
+    "non_null": 1,
+    "null_pct": 100.0,
+    "unique": 1,
+    "sample_values": [
+      "Sample ID 3"
+    ]
+  },
+  {
+    "name": "H13",
+    "dtype": "object",
+    "non_null": 25,
+    "null_pct": 99.93,
+    "unique": 2,
+    "sample_values": [
+      "0",
+      "Beginning Depth"
+    ]
+  },
+  {
+    "name": "H14",
+    "dtype": "object",
+    "non_null": 25,
+    "null_pct": 99.93,
+    "unique": 2,
+    "sample_values": [
+      "6",
+      "Ending Depth"
+    ]
+  },
+  {
+    "name": "S-PH-1:1.02.07",
+    "dtype": "object",
+    "non_null": 25,
+    "null_pct": 99.93,
+    "unique": 14,
+    "sample_values": [
+      "6",
+      "5.9",
+      "5.8",
+      "6.5",
+      "6.3"
+    ]
+  },
+  {
+    "name": "S-BPH-MWB.02",
+    "dtype": "object",
+    "non_null": 19,
+    "null_pct": 99.95,
+    "unique": 7,
+    "sample_values": [
+      "6.5",
+      "6.8",
+      "6.6",
+      "6.4",
+      "Wdrf Buffer"
+    ]
+  },
+  {
+    "name": "S-EC-1:1.03",
+    "dtype": "object",
+    "non_null": 25,
+    "null_pct": 99.93,
+    "unique": 11,
+    "sample_values": [
+      "0.18",
+      "0.19",
+      "0.15",
+      "0.2",
+      "0.25"
+    ]
+  },
+  {
+    "name": "S-CACO3-1NHCL.24",
+    "dtype": "object",
+    "non_null": 25,
+    "null_pct": 99.93,
+    "unique": 2,
+    "sample_values": [
+      "NONE",
+      "Excess Lime"
+    ]
+  },
+  {
+    "name": "S-SOM-LOI.15",
+    "dtype": "object",
+    "non_null": 25,
+    "null_pct": 99.93,
+    "unique": 11,
+    "sample_values": [
+      "3.1",
+      "3.2",
+      "3.5",
+      "3.3",
+      "3.4"
+    ]
+  },
+  {
+    "name": "v",
+    "dtype": "float64",
+    "non_null": 2,
+    "null_pct": 99.99,
+    "unique": 1,
+    "sample_values": [],
+    "min": 105.0,
+    "max": 105.0,
+    "mean": 105.0,
+    "median": 105.0
+  },
+  {
+    "name": "Regen Certified 6.8 or >",
+    "dtype": "object",
+    "non_null": 35,
+    "null_pct": 99.91,
+    "unique": 3,
+    "sample_values": [
+      "NOT YET",
+      "YES",
+      "Yes"
+    ]
+  },
+  {
+    "name": "Score",
+    "dtype": "float64",
+    "non_null": 142,
+    "null_pct": 99.62,
+    "unique": 138,
+    "sample_values": [],
+    "min": -1.0,
+    "max": 37.77,
+    "mean": 9.979859154929576,
+    "median": 9.355
+  },
+  {
+    "name": "Regen Certified",
+    "dtype": "object",
+    "non_null": 88,
+    "null_pct": 99.76,
+    "unique": 4,
+    "sample_values": [
+      "Yes",
+      "YES",
+      "NOT YET",
+      "No"
+    ]
+  },
+  {
+    "name": "Regen Score",
+    "dtype": "float64",
+    "non_null": 107,
+    "null_pct": 99.71,
+    "unique": 60,
+    "sample_values": [],
+    "min": 5.7,
+    "max": 38.4,
+    "mean": 17.814953271028035,
+    "median": 16.9
+  },
+  {
+    "name": "Regen verified",
+    "dtype": "object",
+    "non_null": 46,
+    "null_pct": 99.88,
+    "unique": 2,
+    "sample_values": [
+      "Yes",
+      "No"
+    ]
+  },
+  {
+    "name": "MCC tons per acre",
+    "dtype": "float64",
+    "non_null": 46,
+    "null_pct": 99.88,
+    "unique": 33,
+    "sample_values": [],
+    "min": 1.8,
+    "max": 10.3,
+    "mean": 4.839130434782609,
+    "median": 4.449999999999999
+  },
+  {
+    "name": "M3 Boron, ppm B",
+    "dtype": "float64",
+    "non_null": 1,
+    "null_pct": 100.0,
+    "unique": 1,
+    "sample_values": [],
+    "min": 0.54,
+    "max": 0.54,
+    "mean": 0.54,
+    "median": 0.54
+  },
+  {
+    "name": "Cover Crop mix",
+    "dtype": "object",
+    "non_null": 2,
+    "null_pct": 99.99,
+    "unique": 1,
+    "sample_values": [
+      "50% Legume 50% Grass"
+    ]
+  },
+  {
+    "name": "Regen verify >6.8 to pass",
+    "dtype": "object",
+    "non_null": 1,
+    "null_pct": 100.0,
+    "unique": 1,
+    "sample_values": [
+      "Yes"
+    ]
+  },
+  {
+    "name": "Regen score",
+    "dtype": "float64",
+    "non_null": 1,
+    "null_pct": 100.0,
+    "unique": 1,
+    "sample_values": [],
+    "min": 29.7,
+    "max": 29.7,
+    "mean": 29.7,
+    "median": 29.7
+  },
+  {
+    "name": "Microbial Carbon Capture, T/A",
+    "dtype": "float64",
+    "non_null": 0,
+    "null_pct": 100.0,
+    "unique": 0,
+    "sample_values": []
+  },
+  {
+    "name": "Regenerative Certified",
+    "dtype": "object",
+    "non_null": 80,
+    "null_pct": 99.79,
+    "unique": 2,
+    "sample_values": [
+      "YES",
+      "NOT YET"
+    ]
+  }
+]

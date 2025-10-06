@@ -1,0 +1,7 @@
+Variable,Unique_Values,Most_Common,Most_Common_Count,Missing_%
+Sample Type,2,SOIL HEALTH,392,89.08
+Cover Crop Mix,7,40% Legume 60% Grass,206,68.8
+Past Crop,5,ALL OTHER CROPS,122,95.23
+Crop 1,31,CORN BU/A,53,95.23
+Crop 2,13,CORN BU/A,26,98.18
+Crop 3,4,SOYBEANS BU/A,6,99.7

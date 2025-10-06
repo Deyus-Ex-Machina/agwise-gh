@@ -1,0 +1,29 @@
+Variable,Correlation_with_Soil_Health
+Soil Health Score,1.0
+"Soil Respiration, ppm CO2-C",0.7161391445918284
+"Organic Matter, % LOI",0.5554000943621565
+"H3A Magnesium, ppm Mg",0.14527064633891051
+"H3A Total Phosphorus, ppm P",0.14225068714443398
+"Available K, lbs/A",0.1416847866241087
+"H3A Potassium, ppm K",0.14168001679497533
+"H3A Ammonium, ppm NH4-N",0.1301375295429232
+"Available P, lbs/A",0.11362094189072133
+"Available N, lbs/A",0.09371174232680651
+"H3A Nitrate, ppm NO3-N",-0.020720127393434453
+"1:1 Electrical Conductivity, mmho/cm",-0.10809364249704595
+"H3A Calcium, ppm Ca",-0.1144836147043345
+Soil pH 1:1,-0.1536909548681741
+1:1 Soil pH,
+1:1 Soluble Salt,
+Organic Matter,
+CO2-C,
+H3A Nitrate,
+H3A Ammonium,
+H3A Total Phosphorus,
+H3A ICAP Potassium,
+H3A ICAP Calcium,
+H3A ICAP Magnesium,
+Soil Health Calculation,
+Available N,
+Available P,
+Available K,

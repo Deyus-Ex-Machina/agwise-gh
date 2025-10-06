@@ -1,0 +1,5 @@
+Variable,Unique_Values,Most_Common,Most_Common_Count,Non_Missing,Missing_%
+Crop 1,51,CORN BU/A,163,529,95.83
+Crop 2,29,CORN BU/A,82,229,98.19
+Crop 3,6,WHEAT BU/A,27,46,99.64
+Past Crop,8,ALL OTHER CROPS,418,530,95.82

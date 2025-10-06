@@ -1,0 +1,7 @@
+Variable,Unique_Values,Most_Common,Most_Common_Count,Missing_%
+Sample Type,3,SOIL,2575,87.82
+Cover Crop Mix,8,50% Legume 50% Grass,3975,67.92
+Past Crop,18,ALL OTHER CROPS,1798,93.04
+Crop 1,104,CORN BU/A,964,93.06
+Crop 2,55,SOYBEANS BU/A,335,97.51
+Crop 3,10,WHEAT BU/A,43,99.74

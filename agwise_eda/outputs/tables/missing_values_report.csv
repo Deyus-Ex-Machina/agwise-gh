@@ -1,0 +1,140 @@
+Column,Missing_Count,Missing_Percentage
+Phosphodiesterase ppm pNP g-1 soil h-1,3625,100.0
+Phosphomonoesterases (Alkaline) ppm pNP g-1 soil h-1,3625,100.0
+Beta Glucosidase ppm pNP g-1 soil h-1,3625,100.0
+Urease ppm NH4-N g-1 soil h-1,3625,100.0
+Dehydrogenase ppm INTF g-1 soil h-1,3625,100.0
+Fluorescein Diacetate Hydrolysis ppm fluorescein g-1 soil 3h-1,3625,100.0
+Phosphomonoesterases (Acid) ppm pNP g-1 soil h-1,3625,100.0
+Beta Glucosaminidase ppm pNP g-1 soil h-1,3625,100.0
+Arylsulfatase ppm pNP g-1 soil h-1,3625,100.0
+Enzyme Soil Moisture %,3625,100.0
+Test ID,3623,99.94
+Lime Rec 3,3618,99.81
+Iron Rec 3,3614,99.7
+Magnesium Rec 3,3614,99.7
+K2O Rec 3,3614,99.7
+P205 Rec 3,3614,99.7
+Sulfur Rec 3,3614,99.7
+Zinc Rec 3,3614,99.7
+YG 3,3614,99.7
+Manganese Rec 3,3614,99.7
+Copper Rec 3,3614,99.7
+Crop 3,3614,99.7
+Nitrogen Rec 3,3614,99.7
+Wdrf Buffer,3601,99.34
+"H3A Magnesium, ppm Mg",3576,98.65
+Lime Rec 2,3572,98.54
+Manganese Rec 2,3561,98.23
+Iron Rec 2,3561,98.23
+Zinc Rec 2,3561,98.23
+Sulfur Rec 2,3561,98.23
+Magnesium Rec 2,3561,98.23
+K2O Rec 2,3561,98.23
+P205 Rec 2,3561,98.23
+Copper Rec 2,3561,98.23
+Nitrogen Rec 2,3559,98.18
+YG 2,3559,98.18
+Crop 2,3559,98.18
+Lime Rec 1,3521,97.13
+Zinc Rec 1,3454,95.28
+Magnesium Rec 1,3454,95.28
+Sulfur Rec 1,3454,95.28
+K2O Rec 1,3454,95.28
+Iron Rec 1,3454,95.28
+Manganese Rec 1,3454,95.28
+Copper Rec 1,3454,95.28
+P205 Rec 1,3454,95.28
+Past Crop,3452,95.23
+Crop 1,3452,95.23
+YG 1,3452,95.23
+Nitrogen Rec 1,3452,95.23
+"H3A Magnessium, ppm Mg",3278,90.43
+"H3A Zinc, ppm Zn",3229,89.08
+"H3A Inorganic N, ppm N",3229,89.08
+"H3A Sulfur, ppm S",3229,89.08
+"H3A Sodium, ppm Na",3229,89.08
+"H3A Calcium, ppm Ca",3229,89.08
+"H3A Potassium, ppm K",3229,89.08
+"H3A Organic Phosphorus, ppm P",3229,89.08
+"H3A Inorganic Phosphorus, ppm PO4-P",3229,89.08
+"H3A Total Phosphorus, ppm P",3229,89.08
+"H3A Ammonium, ppm NH4-N",3229,89.08
+"H3A Iron, ppm Fe",3229,89.08
+"H3A Nitrate, ppm NO3-N",3229,89.08
+"H2O Org. N, ppm N",3229,89.08
+"H2O Total N, ppm N",3229,89.08
+"H2O Total Org. C, ppm C",3229,89.08
+"Soil Respiration, ppm CO2-C",3229,89.08
+"Organic Matter, % LOI",3229,89.08
+"1:1 Electrical Conductivity, mmho/cm",3229,89.08
+Sample Type,3229,89.08
+"H3A Manganese, ppm Mn",3229,89.08
+Soil Health Score,3229,89.08
+"H3A Copper, ppm Cu",3229,89.08
+"N Savings, $",3229,89.08
+"N Difference, lbs/A",3229,89.08
+"Haney Test N, lbs/A",3229,89.08
+"Traditional Test N, lbs/A",3229,89.08
+"Nutrient Value, $",3229,89.08
+"Available K, lbs/A",3229,89.08
+"Available P, lbs/A",3229,89.08
+"Available N, lbs/A",3229,89.08
+Soil pH 1:1,3229,89.08
+"Organic P Reserve, ppm P",3229,89.08
+"Organic P Release, ppm P",3229,89.08
+"Organic N Reserve, ppm N",3229,89.08
+"Organic N Release, ppm N",3229,89.08
+H2O Org. N:H3A Inorg. N,3229,89.08
+H2O Org. C:Org. N ,3229,89.08
+"Microbially Active C, %",3229,89.08
+"H3A Aluminum, ppm Al",3229,89.08
+WDRF Buffer,3200,88.28
+Cover crop mix,2799,77.21
+Cover Crop Mix,2494,68.8
+1:1 Soil pH,2025,55.86
+Lbs N Difference,2025,55.86
+N savings,2025,55.86
+H3A ICAP Sulfur,2025,55.86
+H3A Total Phosphorus,2025,55.86
+H3A ICAP Manganese,2025,55.86
+H3A ICAP Zinc,2025,55.86
+H3A ICAP Sodium,2025,55.86
+H3A ICAP Iron,2025,55.86
+H3A ICAP Aluminum,2025,55.86
+% MAC,2025,55.86
+H3A ICAP Calcium,2025,55.86
+H3A ICAP Potassium,2025,55.86
+H3A Organic Phosphorus,2025,55.86
+H3A Inorganic Phosphorus,2025,55.86
+Organic P Release,2025,55.86
+H3A ICAP Magnesium,2025,55.86
+Organic P Reserve,2025,55.86
+Soil Health Calculation,2025,55.86
+Available P,2025,55.86
+Available K,2025,55.86
+Nutrient Value,2025,55.86
+CO2-C,2025,55.86
+Organic Matter,2025,55.86
+Traditional N,2025,55.86
+Haney Test N,2025,55.86
+1:1 Soluble Salt,2025,55.86
+H3A ICAP Copper,2025,55.86
+Zip,2024,55.83
+H3A Ammonium,2023,55.81
+Organic C:N,2023,55.81
+Organic N:Inorganic N,2023,55.81
+Organic N Release,2023,55.81
+Organic N Reserve,2023,55.81
+H3A Inorganic Nitrogen,2023,55.81
+H3A Nitrate,2023,55.81
+Available N,2023,55.81
+H2O Organic N,2023,55.81
+H2O Total N,2019,55.7
+H2O Total Organic C,2019,55.7
+Excess Lime,1629,44.94
+Lab No,1626,44.86
+Date Recd,1626,44.86
+Beginning Depth,1626,44.86
+Date Rept,1626,44.86
+Ending Depth,1626,44.86

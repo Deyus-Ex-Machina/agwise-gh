@@ -1,0 +1,36 @@
+Variable_1,Variable_2,Correlation
+Available K,H3A ICAP Potassium,0.999999782264126
+"Available K, lbs/A","H3A Potassium, ppm K",0.9999742412482578
+"Available P, lbs/A","H3A Total Phosphorus, ppm P",0.9997532892096737
+Available P,H3A Total Phosphorus,0.998893820052754
+"Available N, lbs/A","H3A Nitrate, ppm NO3-N",0.9873472130938509
+Soil Health Score,"Soil Respiration, ppm CO2-C",0.952489246153398
+Soil Health Calculation,CO2-C,0.9378973606420479
+Soil Health Score,"Organic Matter, % LOI",0.8713769021782983
+"H3A Calcium, ppm Ca",Soil pH 1:1,0.8409833677483214
+Available N,H3A Nitrate,0.8062106411773451
+"Soil Respiration, ppm CO2-C","Organic Matter, % LOI",0.7759322079672597
+H3A ICAP Calcium,1:1 Soil pH,0.7737682852391065
+Soil Health Calculation,Organic Matter,0.7555070909466921
+"H3A Nitrate, ppm NO3-N","1:1 Electrical Conductivity, mmho/cm",0.7118235404410713
+"Available N, lbs/A","1:1 Electrical Conductivity, mmho/cm",0.7041744894779718
+Available N,H3A Ammonium,0.6835962242681269
+CO2-C,Organic Matter,0.6656384015202329
+"Available K, lbs/A",Soil Health Score,0.6018889996511106
+Soil Health Score,"H3A Potassium, ppm K",0.6018154483356237
+"Available K, lbs/A","Organic Matter, % LOI",0.5898406636458999
+"H3A Potassium, ppm K","Organic Matter, % LOI",0.5898298548164614
+"H3A Calcium, ppm Ca","1:1 Electrical Conductivity, mmho/cm",0.5883435127712301
+"H3A Potassium, ppm K","Soil Respiration, ppm CO2-C",0.5117684486861245
+"Available K, lbs/A","Soil Respiration, ppm CO2-C",0.5117669278372243
+Soil Health Calculation,1:1 Soil pH,-0.5181098534596444
+"H3A Ammonium, ppm NH4-N",Soil pH 1:1,-0.6055727511835582
+"H3A Calcium, ppm Ca","H3A Ammonium, ppm NH4-N",-0.6057305406630181
+"H3A Calcium, ppm Ca","H3A Potassium, ppm K",-0.6196281310584685
+"Available K, lbs/A","H3A Calcium, ppm Ca",-0.6199689782497572
+"Organic Matter, % LOI",Soil pH 1:1,-0.650050936113822
+"Soil Respiration, ppm CO2-C",Soil pH 1:1,-0.6676256465853324
+"H3A Calcium, ppm Ca","Soil Respiration, ppm CO2-C",-0.7235476160778341
+Soil Health Score,Soil pH 1:1,-0.7258331296958354
+"H3A Calcium, ppm Ca","Organic Matter, % LOI",-0.7309035254477256
+Soil Health Score,"H3A Calcium, ppm Ca",-0.7949930117919204

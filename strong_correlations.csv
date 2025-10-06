@@ -1,0 +1,20 @@
+Variable_1,Variable_2,Correlation
+Available K,H3A ICAP Potassium,0.9999998422485141
+"Available K, lbs/A","H3A Potassium, ppm K",0.9999994546358554
+"Available P, lbs/A","H3A Total Phosphorus, ppm P",0.9934594077934246
+Available P,H3A Total Phosphorus,0.9856890897192798
+"Available N, lbs/A","H3A Nitrate, ppm NO3-N",0.849456405537351
+Available N,H3A Nitrate,0.7775309537080494
+Soil Health Calculation,CO2-C,0.7646592272168297
+Soil Health Score,"Soil Respiration, ppm CO2-C",0.7161391445918284
+"H3A Calcium, ppm Ca",Soil pH 1:1,0.6937528536982595
+H3A ICAP Calcium,1:1 Soil pH,0.667302492151362
+"Soil Respiration, ppm CO2-C","Organic Matter, % LOI",0.6520151396180126
+Available N,H3A Ammonium,0.6407306025844556
+"H3A Calcium, ppm Ca","1:1 Electrical Conductivity, mmho/cm",0.5759367611816056
+Soil Health Score,"Organic Matter, % LOI",0.5554000943621565
+CO2-C,Organic Matter,0.53074983482633
+"Available N, lbs/A","H3A Ammonium, ppm NH4-N",0.5153561110166961
+H3A ICAP Magnesium,H3A ICAP Calcium,0.5103773729864974
+Soil Health Calculation,Organic Matter,0.5075107346997125
+H3A ICAP Magnesium,1:1 Soil pH,0.5004290160546998

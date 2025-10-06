@@ -1,0 +1,40 @@
+================================================================================
+AGRICULTURAL SOIL HEALTH EDA - QUICK START GUIDE
+================================================================================
+
+📂 PROJECT LOCATION
+/Users/deyus-ex-machina/agwise/agwise_eda/
+
+📊 MAIN REPORT
+reports/COMPREHENSIVE_EDA_REPORT.md (13 sections, complete findings)
+
+🚀 TO RUN ANALYSIS
+cd agwise_eda
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+cd scripts
+python run_all_analyses.py
+
+📈 KEY OUTPUTS
+- Visualizations: outputs/visualizations/ (15 PNG files)
+- Data Tables: outputs/tables/ (11 CSV files)
+- Reports: reports/ (comprehensive report)
+
+🔍 WHAT TO READ FIRST
+1. PROJECT_SUMMARY.md (this overview)
+2. README.md (project details)
+3. reports/COMPREHENSIVE_EDA_REPORT.md (full findings)
+
+💡 KEY FINDINGS
+- 87% of soils rate "Poor-Fair" (improvement opportunity)
+- Soil respiration strongest health predictor (r=0.952)
+- Grass-dominant covers surprisingly outperform legume mixes
+- Haney Test shows $51K potential nitrogen savings
+- 90% alkaline soils (pH >7.5) limiting biological activity
+
+📞 NEXT STEPS
+See "Next Steps for Inheriting Data Scientist" in main report
+
+✅ STATUS: Complete and ready for handoff
+================================================================================

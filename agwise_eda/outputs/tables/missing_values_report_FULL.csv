@@ -1,0 +1,197 @@
+Column,Missing_Count,Missing_Percentage,Data_Type
+Chloride Rec 2,12684,100.0,float64
+Chloride Rec 1,12684,100.0,float64
+Boron Rec 1,12684,100.0,float64
+Boron Rec 3,12684,100.0,float64
+Chloride Rec 3,12684,100.0,float64
+"Bulk Density, g/cm3",12684,100.0,float64
+"Total Nitrogen, % N",12684,100.0,float64
+"Total Carbon, % C",12684,100.0,float64
+"Total Organic Carbon, % C",12684,100.0,float64
+Beta Glucosidase ppm pNP g-1 soil h-1,12684,100.0,float64
+Urease ppm NH4-N g-1 soil h-1,12684,100.0,float64
+Phosphodiesterase ppm pNP g-1 soil h-1,12684,100.0,float64
+Dehydrogenase ppm INTF g-1 soil h-1,12684,100.0,float64
+Fluorescein Diacetate Hydrolysis ppm fluorescein g-1 soil 3h-1,12684,100.0,float64
+Beta Glucosaminidase ppm pNP g-1 soil h-1,12684,100.0,float64
+Phosphomonoesterases (Acid) ppm pNP g-1 soil h-1,12684,100.0,float64
+Phosphomonoesterases (Alkaline) ppm pNP g-1 soil h-1,12684,100.0,float64
+Arylsulfatase ppm pNP g-1 soil h-1,12684,100.0,float64
+"CaNO3-Chloride, ppm Cl",12684,100.0,float64
+Enzyme Soil Moisture %,12684,100.0,float64
+Boron Rec 2,12684,100.0,float64
+H11,12683,99.99,object
+H12,12683,99.99,object
+H2,12683,99.99,object
+"CEC, meq/100g",12682,99.98,float64
+"DTPA-Iron, ppm Fe",12682,99.98,float64
+"H2O-Boron, ppm B",12682,99.98,float64
+"DTPA-Copper, ppm Cu",12682,99.98,float64
+"DTPA-Manganese, ppm Mn ",12682,99.98,float64
+"Hydrogen, % Sat",12682,99.98,float64
+"DTPA-Zinc, ppm Zn",12682,99.98,float64
+"NH4OAc-Sodium, ppm Na ",12682,99.98,float64
+Beginning Depth ,12682,99.98,float64
+"Base Saturation, %",12682,99.98,float64
+"NH4OAc-Calcium, ppm Ca ",12682,99.98,float64
+"Calcium, % Sat",12682,99.98,float64
+"Magnesium, % Sat",12682,99.98,float64
+"Potassium, % Sat",12682,99.98,float64
+"Sodium, % Sat",12682,99.98,float64
+"NH4OAc-Potassium, ppm K ",12682,99.98,float64
+"1N KCl-Nitrate, ppm NO3-N",12682,99.98,float64
+"1N KCl-Nitrate, lbs/A N",12682,99.98,float64
+"M3-Phosphate, ppm PO4-P",12682,99.98,float64
+"M3-Sulfur, ppm S",12682,99.98,float64
+"NH4OAc-Magnesium, ppm Mg",12682,99.98,float64
+"H2O Calcium, ppm Ca",12682,99.98,float64
+S-BPH-MWB.02,12665,99.85,object
+Woodruff Buffer pH,12664,99.84,float64
+H1,12659,99.8,object
+H6,12659,99.8,object
+S-CACO3-1NHCL.24,12659,99.8,object
+S-EC-1:1.03,12659,99.8,object
+S-PH-1:1.02.07,12659,99.8,object
+H14,12659,99.8,object
+H13,12659,99.8,object
+H10,12659,99.8,object
+H9,12659,99.8,object
+H8,12659,99.8,object
+H7,12659,99.8,object
+S-SOM-LOI.15,12659,99.8,object
+MODUS ID's,12659,99.8,object
+H3,12659,99.8,object
+H4,12659,99.8,object
+H5,12659,99.8,object
+Lime Rec 3,12653,99.76,object
+Zinc Rec 3,12638,99.64,object
+P205 Rec 3,12638,99.64,object
+Copper Rec 3,12638,99.64,object
+Manganese Rec 3,12638,99.64,object
+Iron Rec 3,12638,99.64,object
+Sulfur Rec 3,12638,99.64,object
+Magnesium Rec 3,12638,99.64,object
+K2O Rec 3,12638,99.64,object
+YG 3,12638,99.64,object
+Nitrogen Rec 3,12638,99.64,object
+Crop 3,12638,99.64,object
+1:1 pH,12608,99.4,float64
+Lab ID,12608,99.4,float64
+Test ID,12536,98.83,object
+Lime Rec 2,12502,98.57,object
+Magnesium Rec 2,12457,98.21,object
+P205 Rec 2,12457,98.21,object
+Copper Rec 2,12457,98.21,object
+Manganese Rec 2,12457,98.21,object
+Iron Rec 2,12457,98.21,object
+K2O Rec 2,12457,98.21,object
+Zinc Rec 2,12457,98.21,object
+Sulfur Rec 2,12457,98.21,object
+Nitrogen Rec 2,12455,98.19,object
+Crop 2,12455,98.19,object
+YG 2,12455,98.19,object
+H2O Org. C:Org. N,12440,98.08,object
+Lime Rec 1,12324,97.16,object
+"H3A Magnessium, ppm Mg",12157,95.85,float64
+Manganese Rec 1,12157,95.85,object
+Copper Rec 1,12157,95.85,object
+Iron Rec 1,12157,95.85,object
+Zinc Rec 1,12157,95.85,object
+Sulfur Rec 1,12157,95.85,object
+Magnesium Rec 1,12157,95.85,object
+K2O Rec 1,12157,95.85,object
+P205 Rec 1,12157,95.85,object
+Nitrogen Rec 1,12155,95.83,object
+YG 1,12155,95.83,object
+Crop 1,12155,95.83,object
+Past Crop,12154,95.82,object
+Wdrf Buffer,12080,95.24,object
+WDRF Buffer,11456,90.32,float64
+"H3A Magnesium, ppm Mg",11365,89.6,object
+H2O Org. C:Org. N ,11082,87.37,float64
+Soil pH 1:1,10912,86.03,object
+"H3A Organic Phosphorus, ppm P",10838,85.45,object
+"N Savings, $",10838,85.45,object
+"Available P, lbs/A",10838,85.45,object
+"Available K, lbs/A",10838,85.45,object
+"Nutrient Value, $",10838,85.45,object
+"Traditional Test N, lbs/A",10838,85.45,object
+"Haney Test N, lbs/A",10838,85.45,object
+"N Difference, lbs/A",10838,85.45,object
+"H3A Inorganic N, ppm N",10838,85.45,object
+Soil Health Score,10838,85.45,object
+"H3A Nitrate, ppm NO3-N",10838,85.45,object
+"H2O Org. N, ppm N",10838,85.45,object
+"H2O Total N, ppm N",10838,85.45,object
+"H2O Total Org. C, ppm C",10838,85.45,object
+"Soil Respiration, ppm CO2-C",10838,85.45,object
+"H3A Potassium, ppm K",10838,85.45,object
+"Available N, lbs/A",10838,85.45,object
+"H3A Ammonium, ppm NH4-N",10838,85.45,object
+"Organic P Reserve, ppm P",10838,85.45,object
+"H3A Manganese, ppm Mn",10838,85.45,object
+"H3A Inorganic Phosphorus, ppm PO4-P",10838,85.45,object
+"H3A Sodium, ppm Na",10838,85.45,object
+"H3A Sulfur, ppm S",10838,85.45,object
+"H3A Zinc, ppm Zn",10838,85.45,object
+"H3A Iron, ppm Fe",10838,85.45,object
+"H3A Calcium, ppm Ca",10838,85.45,object
+"H3A Copper, ppm Cu",10838,85.45,object
+"H3A Aluminum, ppm Al",10838,85.45,object
+"Microbially Active C, %",10838,85.45,object
+"H3A Total Phosphorus, ppm P",10838,85.45,object
+H2O Org. N:H3A Inorg. N,10838,85.45,object
+"Organic N Release, ppm N",10838,85.45,object
+"Organic N Reserve, ppm N",10838,85.45,object
+"Organic P Release, ppm P",10838,85.45,object
+"1:1 Electrical Conductivity, mmho/cm",10836,85.43,object
+Sample Type,10836,85.43,object
+"Organic Matter, % LOI",10836,85.43,object
+Cover crop mix,10364,81.71,object
+Cover Crop Mix,9445,74.46,object
+1:1 Soil pH,8742,68.92,float64
+H3A ICAP Calcium,8742,68.92,float64
+H3A ICAP Magnesium,8742,68.92,float64
+H3A ICAP Copper,8742,68.92,float64
+H3A ICAP Manganese,8742,68.92,float64
+H3A ICAP Zinc,8742,68.92,float64
+H3A ICAP Sulfur,8742,68.92,float64
+H3A ICAP Iron,8742,68.92,float64
+H3A ICAP Aluminum,8742,68.92,float64
+H3A Organic Phosphorus,8742,68.92,float64
+H3A ICAP Potassium,8742,68.92,float64
+H3A Inorganic Phosphorus,8742,68.92,float64
+H3A Total Phosphorus,8742,68.92,float64
+CO2-C,8742,68.92,float64
+% MAC,8742,68.92,float64
+Organic Matter,8742,68.92,float64
+1:1 Soluble Salt,8742,68.92,float64
+H3A ICAP Sodium,8742,68.92,float64
+N savings,8742,68.92,float64
+Lbs N Difference,8742,68.92,float64
+Organic P Release,8742,68.92,float64
+Organic P Reserve,8742,68.92,float64
+Soil Health Calculation,8742,68.92,float64
+Available P,8742,68.92,float64
+Available K,8742,68.92,float64
+Nutrient Value,8742,68.92,float64
+Traditional N,8742,68.92,float64
+Haney Test N,8742,68.92,float64
+Organic C:N,8740,68.91,float64
+H3A Ammonium,8740,68.91,float64
+H2O Organic N,8740,68.91,float64
+H3A Nitrate,8740,68.91,float64
+H3A Inorganic Nitrogen,8740,68.91,float64
+Organic N:Inorganic N,8740,68.91,float64
+Available N,8740,68.91,float64
+Organic N Reserve,8740,68.91,float64
+Organic N Release,8740,68.91,float64
+Zip,8741,68.91,object
+H2O Total Organic C,8736,68.87,float64
+H2O Total N,8736,68.87,float64
+Lab No,6967,54.93,object
+Excess Lime,6894,54.35,object
+Beginning Depth,6893,54.34,object
+Ending Depth,6891,54.33,object
+Date Recd,6891,54.33,object
+Date Rept,6891,54.33,object

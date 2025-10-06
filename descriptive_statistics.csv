@@ -1,0 +1,11 @@
+,count,unique,top,freq,missing_%
+Soil pH 1:1,4454.0,223.0,7.5,211.0,88.06
+"1:1 Electrical Conductivity, mmho/cm",4530.0,185.0,0.13,258.0,87.86
+"Organic Matter, % LOI",4540.0,271.0,0.6,141.0,87.83
+"Soil Respiration, ppm CO2-C",4538.0,3627.0,6.8,9.0,87.84
+"H3A Nitrate, ppm NO3-N",4538.0,1439.0,11.7,24.0,87.84
+"H3A Total Phosphorus, ppm P",4538.0,3223.0,3.0,58.0,87.84
+"H3A Potassium, ppm K",4538.0,3780.0,52.0,16.0,87.84
+"H3A Calcium, ppm Ca",4438.0,4281.0,3051.0,4.0,88.11
+"H3A Magnesium, ppm Mg",3872.0,3554.0,136.0,5.0,89.62
+Soil Health Score,4438.0,1998.0,6.3,11.0,88.11
