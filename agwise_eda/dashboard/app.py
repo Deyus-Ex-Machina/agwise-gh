@@ -64,15 +64,15 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Paths
-BASE_DIR = Path('/Users/deyus-ex-machina/agwise/agwise_eda')
+BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_FILE = BASE_DIR / 'data' / 'processed' / 'combined_soil_data_FULL.csv'
 FEEDBACK_DIR = BASE_DIR / 'feedback'
 FEEDBACK_FILE = FEEDBACK_DIR / 'user_feedback.csv'
 FEEDBACK_UPLOADS = FEEDBACK_DIR / 'uploads'
 
 # Ensure feedback directories exist
-FEEDBACK_DIR.mkdir(exist_ok=True)
-FEEDBACK_UPLOADS.mkdir(exist_ok=True)
+FEEDBACK_DIR.mkdir(parents=True, exist_ok=True)
+FEEDBACK_UPLOADS.mkdir(parents=True, exist_ok=True)
 
 # Cache data loading
 @st.cache_data
